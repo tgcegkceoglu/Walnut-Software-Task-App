@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "appointments",
+  "info": {
+    "singularName": "appointment",
+    "pluralName": "appointments",
+    "displayName": "Appointment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "appointmentDate": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "timeSlots": {
+      "type": "json"
+    }
+  }
+}

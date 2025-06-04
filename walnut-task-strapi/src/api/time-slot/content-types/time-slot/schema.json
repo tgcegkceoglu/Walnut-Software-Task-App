@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "time_slots",
+  "info": {
+    "singularName": "time-slot",
+    "pluralName": "time-slots",
+    "displayName": "TimeSlot"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startDate": {
+      "type": "time"
+    },
+    "endDate": {
+      "type": "time"
+    }
+  }
+}
