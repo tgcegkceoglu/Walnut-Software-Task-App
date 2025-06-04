@@ -7,8 +7,11 @@ import 'package:walnut_task_app/product/widgets/custom_textfiled_widget.dart';
 
 class AppointmentFirstStepView extends StatefulWidget {
   final AppointmentController appointmentController;
+  final String header;
+
   const AppointmentFirstStepView({
     super.key,
+    required this.header,
     required this.appointmentController,
   });
 
@@ -45,7 +48,7 @@ class _AppointmentFirstStepViewState extends State<AppointmentFirstStepView> {
       appBar: AppBar(
         backgroundColor: context.lightGrey,
         title: Text(
-          "Create an Appointment",
+        widget.header,
           style: context.bodyLarge.copyWith(color: context.secondaryColor),
         ),
       ),

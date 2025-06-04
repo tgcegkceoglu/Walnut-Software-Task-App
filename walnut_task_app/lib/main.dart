@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
       ),
       title: 'Walnut Task App',
       debugShowCheckedModeBanner: false,
-      initialRoute: loginView,
+      initialRoute: myAppointmentsView,
       onGenerateRoute: RoutingConstants.createRoute,
     );
   }

@@ -44,18 +44,19 @@ class _AppointmentCreateViewState extends State<AppointmentCreateView> {
     }
   }
 
-// Handles confirmation logic for creating or updating an appointment
+  // Handles confirmation logic for creating or updating an appointment
   Future<void> onConfirm() async {
     _appointmentController.createAppointmentFromInput();
     ApiResponseStatus status;
     String statusText;
     if (widget.appointment != null) {
-     // to show toast text and response status
-      status = await _appointmentController.appointmentUpdate(widget.appointment!.documentId!, ); // appointment update
-      statusText = "Appointment Created";
+      // to show toast text and response status
+      status = await _appointmentController.appointmentUpdate(widget.appointment!.documentId!,
+      ); // appointment update
+      statusText = "Appointment Updated";
     } else {
       status = await _appointmentController.appointmentCreate(); // appointment create
-      statusText = "Appointment Updated";
+      statusText = "Appointment Created";
     }
 
     if (status == ApiResponseStatus.failure) {
@@ -81,7 +82,7 @@ class _AppointmentCreateViewState extends State<AppointmentCreateView> {
   @override
   void initState() {
     // If there is an appointment, we assign textfield files and time slots.
-    if (widget.appointment != null) {  
+    if (widget.appointment != null) {
       _appointmentController.createSelectedAppointmentFromInput(
         widget.appointment!,
       );
@@ -106,6 +107,9 @@ class _AppointmentCreateViewState extends State<AppointmentCreateView> {
         onPageChanged: (index) => setState(() => _currentPage = index),
         children: [
           AppointmentFirstStepView(
+            header: widget.appointment != null
+                ? "Update Appointment"
+                : "Create an Appointment",
             appointmentController: _appointmentController,
           ),
           AppointmentSecondaryStepView(
