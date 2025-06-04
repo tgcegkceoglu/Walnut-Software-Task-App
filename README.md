@@ -16,13 +16,13 @@ User-friendly mobile interface
 
 ## Project Screenshot
 <p float="left">
-      <img src="https://user-images.githubusercontent.com/74832430/222234069-1ffd5010-47a9-4a76-9140-746a0aa83ed5.jpg" width="300" />
-      <img src="https://user-images.githubusercontent.com/74832430/222234114-0161e6d4-3d44-4f7b-afe8-53d10f882508.jpg" width="300" />
+      <img src="https://github.com/user-attachments/assets/e2cb9eb7-bc79-44a0-91e4-b289c9a03b25" width="300" />
+      <img src="https://github.com/user-attachments/assets/29f092c1-8932-48e1-adfe-73ce36dc22b8" width="300" />
    <br>
-     <img src="https://user-images.githubusercontent.com/74832430/222234124-6da3313e-7741-43db-a8ce-84f6086b01b1.jpg" width="300" />   
-    <img src="https://user-images.githubusercontent.com/74832430/222234130-a52a9719-6f1c-4b24-9fcf-8fa7198f8621.jpg" width="300"/> 
+     <img src="https://github.com/user-attachments/assets/0d02d67d-c244-4f9b-8155-199cd59acc9d" width="300" />   
+    <img src="https://github.com/user-attachments/assets/dd661131-b975-42fa-ab76-553a36272291" width="300"/> 
   <br>
-  <img src="https://user-images.githubusercontent.com/74832430/222234138-6f4438c3-9878-42f0-8cc4-4be1405298a8.jpg" width="300" />
-  <img src="https://user-images.githubusercontent.com/74832430/222234144-45fdbec2-8956-40b4-be7e-57b9f16da13a.jpg" width="300" />
+  <img src="https://github.com/user-attachments/assets/41483e5c-112f-442d-94b5-ec91a8403736" width="300" />
+  <img src="https://github.com/user-attachments/assets/2d08f5c6-598b-4e0f-8bdb-d6437139832e" width="300" />
 </p>
 
